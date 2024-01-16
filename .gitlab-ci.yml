@@ -17,7 +17,7 @@
 # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
 
 include:
-  - component: gitlab.corp.paymaya.com/central/pipeline/templates@v0.0.1
+  - component: gitlab.corp.paymaya.com/central/pipeline/java-mvn-template@v0.0.2
     # inputs:
     #   stage: build
 
