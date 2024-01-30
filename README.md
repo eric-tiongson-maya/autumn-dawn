@@ -1,6 +1,6 @@
 ## Autumn Dawn
 
-### Important Note
+### Introduction
 
 This project is intended to test the capabilities of various SCA tools including Snyk, Dependabot and Gitlab's gemnasium.
 
@@ -10,7 +10,9 @@ This project is based on a GitLab [Java Spring template project](https://docs.gi
 
 Improvements can be proposed in the [original project](https://gitlab.com/gitlab-org/project-templates/spring).
 
-### CI/CD with Auto DevOps
+### Optional CI/CD with Auto DevOps
+
+*Important Note:* Do not turn on Auto DevOps while the SCA testing is ongoing. 
 
 This template is compatible with [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/).
 
