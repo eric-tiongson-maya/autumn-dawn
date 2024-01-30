@@ -35,6 +35,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- add spring beans dependency -->
+		<!-- a vulnerable version of spring beans is intentionally added -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>5.3.12</version>
+		</dependency>
 	</dependencies>
 
 	<build>
